@@ -14,9 +14,8 @@
 > 实例实例的是该repo下 FBAudienceNetwork-6.12.0.zip版本，若没有对应版本可提交mr或issue
 
 ```
-"source": {
-    "https://github.com/piaodang1234/WCFBAudienceNetwork/blob/dev/FBAudienceNetwork-6.12.0.zip?raw=true",
-    
-  },
+ "source": {
+      "http": "https://github.com/piaodang1234/WCFBAudienceNetwork/blob/dev/FBAudienceNetwork-6.12.0.zip?raw=true"
+ },
 ```
 5. pod install, 直接安装即可，避免pod update导致cocoapods repo文件修复被覆盖
